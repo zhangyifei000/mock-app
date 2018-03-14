@@ -1,0 +1,26 @@
+{
+  "name": "mock-server",
+  "version": "1.0.0",
+  "description": "this is a mock server",
+  "main": "./server/app.js",
+  "scripts": {
+    "start": "node ./server/app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zhangyifei000/mock-app.git"
+  },
+  "keywords": [
+    "mock"
+  ],
+  "author": "BillZhang",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zhangyifei000/mock-app/issues"
+  },
+  "homepage": "https://github.com/zhangyifei000/mock-app#readme",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "express": "^4.16.3"
+  }
+}
