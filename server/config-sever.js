@@ -1,6 +1,9 @@
 const Express = require('express');
 const bodyParser = require('body-parser');
 const httpProxy = require('http-proxy');
+// const Mock = require('mockjs');
+// mock：是一个可以生成mock数据的框架
+// https://github.com/nuysoft/Mock/wiki/Address
 const logger = require('morgan');
 
 const pathObj = require('./path-obj')
@@ -16,7 +19,8 @@ const remoteHost = "https://interface.meiriyiwen.com/";
 
 const server = {
   app: app,
-  path: pathObj
+  path: pathObj,
+  mock: Mock
 }
 
 app.use(logger('tiny'));
